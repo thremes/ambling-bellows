@@ -1,1 +1,60 @@
 @import "style.css";
+
+/* General
+--------------------------------------------------------- */
+
+body {
+    background: #FAFAFA;
+    border-color: #FFF;
+    color: #4C4C4C;
+}
+
+a {
+    color: #404040;
+    opacity: 0.9;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+/* Header
+--------------------------------------------------------- */
+
+#site-title a,
+#site-title a:hover {
+    color: #00A68E;
+}
+
+#site-description {
+    color: #4C4C4C;
+}
+
+/* Primary Menu
+--------------------------------------------------------- */
+
+#menu-primary {
+    border-color: #E5E5E5;
+}
+
+#menu-primary li a {
+    border-top: 1px solid #E5E5E5;
+}
+
+#menu-primary li a:hover,
+#menu-primary li.current-menu-item > a {
+    border-color: #00A68E;
+}
+
+/* Main
+--------------------------------------------------------- */
+
+.entry,
+.attachment-meta,
+.loop-meta,
+#comments-template {
+    background: #FFF;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    color: #4C4C4C;
+}
