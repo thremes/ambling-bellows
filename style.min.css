@@ -5,7 +5,8 @@
 
 body {
     background: #FAFAFA;
-    border-color: #FFF;
+    border-top-color: #404040;
+    border-bottom-color: #00A68E;
     color: #4C4C4C;
 }
 
@@ -33,8 +34,8 @@ a:hover {
 /* === Code and Preformatted text === */
 
 code {
-    color: #FFF;
-    background: #00A68E;
+    color: #808080;
+    background: #FAFAFA;
 }
 
 pre {
@@ -230,36 +231,21 @@ a.comments-link::before {
 
 /* === Comments pagination === */
 
-/*.comments-nav {*/
-/*margin: 0 0 25px;*/
-/*text-align: center;*/
-/*}*/
+.comments-nav {
+    margin: 0 0 25px;
+    text-align: center;
+}
 
-/*.comments-nav a {*/
-/*display: inline-block;*/
-/*margin: 0 3px;*/
-/*padding: 5px 15px;*/
-/*background: #202020;*/
-/*text-decoration: none;*/
-/*}*/
-
-/*.comments-nav a[rel="prev"]::before {*/
-/*content: '\f430';*/
-/*}*/
-
-/*.comments-nav a[rel="next"]::after {*/
-/*content: '\f429';*/
-/*}*/
-
-/*.comments-nav .page-numbers {*/
-/*font-style: italic;*/
-/*}*/
+#main .comments-nav a {
+    background: #4C4C4C;
+    color: #FFF;
+}
 
 /* Comments
 --------------------------------------------------------- */
 
 #comments-number {
-    color: #4C4C4C;
+    color: #404040;
 }
 
 /* === comment meta ========= */
@@ -288,10 +274,16 @@ a.comments-link::before {
     border: 1px solid #E5E5E5;
 }
 
+li.ping {
+    background: transparent;
+    border-color: #E5E5E5;
+    opacity: 0.5;
+}
+
 /* === reply link ========= */
 
 #main .comment-reply-link {
-    background: #4C4C4C;
+    background: #404040;
     color: #FFF;
 }
 
@@ -303,7 +295,7 @@ a.comments-link::before {
 /* ====== RESPOND (COMMENT FORM) ====== */
 
 #reply-title {
-    color: #4C4C4C;
+    color: #404040;
 }
 
 #respond .log-in-out::before {
@@ -342,7 +334,3 @@ a.comments-link::before {
     background-color: #00A68E;
 }
 
-.form-allowed-tags code {
-    background: #FAFAFA;
-    color: #808080;
-}
