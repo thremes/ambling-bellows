@@ -18,6 +18,52 @@ a:hover {
     opacity: 1;
 }
 
+#main a {
+    color: #B2B2B2;
+    opacity: 1;
+}
+
+#main a:hover {
+    color: #00A68E;
+}
+
+/* Defaults
+--------------------------------------------------------- */
+
+/* === Code and Preformatted text === */
+
+code {
+    color: #FFF;
+    background: #00A68E;
+}
+
+pre {
+    background: transparent;
+    border: 1px solid #E5E5E5;
+}
+
+.comment-content pre {
+    background: transparent;
+}
+
+/* === Tables === */
+
+table caption {
+    color: #737373;
+}
+
+th {
+    background: transparent;
+    border-bottom: 1px solid #E5E5E5;
+    opacity: 1;
+}
+
+td {
+    background: transparent;
+    border-bottom: 1px solid #E5E5E5;
+    opacity: 1;
+}
+
 /* Header
 --------------------------------------------------------- */
 
@@ -56,5 +102,149 @@ a:hover {
     background: #FFF;
     border: none;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    color: #4C4C4C;
+    color: #737373;
+}
+
+/* Loop Meta
+--------------------------------------------------------- */
+
+.loop-title {
+    color: #404040;
+}
+
+/* Content
+--------------------------------------------------------- */
+
+/* === entry header ========= */
+
+#main .entry-header .entry-title,
+#main .entry-header .entry-title a {
+    color: #404040;
+}
+
+#main .entry-header .entry-title a:hover {
+    color: #00A68E;
+}
+
+/* === entry byline ========= */
+
+.entry-byline {
+    color: #B2B2B2;
+}
+
+/* === entry footer ========= */
+
+.entry-footer {
+    color: #B2B2B2;
+}
+
+/* === Post-related icons ========= */
+
+.entry-byline .entry-permalink::before,
+.entry-footer .entry-permalink::before,
+.comment-meta .comment-permalink::before,
+.portfolio-item-link::before {
+    color: #00A68E;
+}
+
+a.comments-link::before {
+    color: #00A68E;
+}
+
+.entry-byline .category::before,
+.entry-footer .category::before,
+.entry-byline .portfolio::before,
+.entry-footer .portfolio::before {
+    color: #00A68E;
+}
+
+.entry-byline .post_tag::before,
+.entry-footer .post_tag::before {
+    color: #00A68E;
+}
+
+.image-sizes::before {
+    color: #00A68E;
+}
+
+.post-edit-link::before,
+.comment-edit-link::before {
+    color: #00A68E;
+}
+
+.entry-byline .entry-author a::before,
+.entry-footer .entry-author a::before {
+    color: #00A68E;
+}
+
+.entry-published::before,
+.comment-published::before {
+    color: #00A68E;
+}
+
+.post-format-link::before,
+#menu-formats li a::before {
+    color: #00A68E;
+}
+
+/* === Formats Menu ========= */
+
+#menu-formats li a::before {
+    background: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.page-template-formats #menu-formats li a:hover::after {
+    color: #B2B2B2;
+}
+
+/* Pagination
+--------------------------------------------------------- */
+
+/* === Single posts using <!--nextpage--> === */
+
+.page-links a {
+    background: transparent;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* === Single post navigation (between different posts) === */
+
+#main .loop-nav a {
+    background-color: #4C4C4C;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+    color: #FFF;
+}
+
+#main .loop-nav a:hover {
+    background-color: #00A68E;
+}
+
+/* === Comments pagination === */
+
+.comments-nav {
+    margin: 0 0 25px;
+    text-align: center;
+}
+
+.comments-nav a {
+    display: inline-block;
+    margin: 0 3px;
+    padding: 5px 15px;
+    background: #202020;
+    text-decoration: none;
+}
+
+.comments-nav a[rel="prev"]::before {
+    content: '\f430';
+}
+
+.comments-nav a[rel="next"]::after {
+    content: '\f429';
+}
+
+.comments-nav .page-numbers {
+    font-style: italic;
 }
