@@ -3,18 +3,16 @@
  * Theme URI:   https://github.com/thremes/ambling-bellows
  * Description: A fun child theme for the Socially Awkward parent theme.
  *
- * Version:     0.1.0.beta
- * Author:      NuvemPress
- * Author URI:  http://nuvempress.com.br
+ * Version:     0.1.0
  * Author:      Thiago Senna
  * Author URI:  http://thremes.com.br
  *
- * Tags: TODO
+ * Template:    socially-awkward
+ *
+ * Tags:        white, gray, green, one-column, featured-images, microformats, post-formats, sticky-post, threaded-comments
  *
  * License:     GNU General Public License v2.0 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- *
- * Template:    socially-awkward
  */
 
 @import "assets/css/theme.css";
