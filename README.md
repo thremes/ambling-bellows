@@ -10,3 +10,8 @@ Ambling Bellows is a child theme of Socially Awkward. You must have it installed
 ## Recommended Plugins
 
 * [Custom Content Portfolio](http://themehybrid.com/plugins/custom-content-portfolio) by ThemeHybrid
+
+## Copyright and License
+
+Images by [Unsplash](http://unsplash.com/), licensed under [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/)
+* [Image used in screenshot](http://bit.ly/1qJlBgq) by Ariana Prestes
