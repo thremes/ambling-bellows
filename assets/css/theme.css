@@ -114,6 +114,24 @@ img {
     border-color: #00A68E;
 }
 
+/* Menu Portfolio
+--------------------------------------------------------- */
+
+#menu-portfolio li a,
+#menu-portfolio li a:hover,
+#menu-portfolio li.current-menu-item a,
+#menu-portfolio li.current-cat a {
+    background: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #00A68E;
+}
+
+#menu-portfolio li a:hover,
+#menu-portfolio li.current-menu-item a,
+#menu-portfolio li.current-cat a {
+    background: rgba(0, 0, 0, 0.15);
+}
+
 /* Main
 --------------------------------------------------------- */
 
@@ -136,6 +154,11 @@ img {
 
 /* Content
 --------------------------------------------------------- */
+
+.sticky::before {
+    color: rgba(0, 0, 0, 0.1);
+    opacity: 1;
+}
 
 /* === entry header ========= */
 
